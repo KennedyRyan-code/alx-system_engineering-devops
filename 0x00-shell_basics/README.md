@@ -12,3 +12,4 @@ script 1-listit displays the contents list of the current directory
 11-lists is  a script that lists all files in the current directory and the parent of the working directory and the /boot
 12-file_type is  a script that prints the type of the file named
 13-symbolic_link creates a symbolic links in current working directory
+14-copy_html is a script that copies all unique the HTML files from the current working directory to the parent of the working directory
