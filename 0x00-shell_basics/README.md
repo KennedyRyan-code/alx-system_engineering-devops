@@ -9,3 +9,4 @@ script 1-listit displays the contents list of the current directory
 8-firstdelete script deletes file from a directory
 9-firstdirdeletion script deletes a directory
 10-back script that changes a directory to the previous one
+11-lists is  a script that lists all files in the current directory and the parent of the working directory and the /boot
