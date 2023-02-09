@@ -7,3 +7,4 @@ script 1-listit displays the contents list of the current directory
 6-firstdirectory script creates a directory
 7-movethatfile moves file to a directory
 8-firstdelete script deletes file from a directory
+9-firstdirdeletion script deletes a directory
