@@ -4,3 +4,4 @@ Writting scripts in shell permission
 2-groups a script that prints all groups the current user is part of
 3-new_owner a script that changes the owner of a file
 4-empty a script that creates a new file
+5-execute a script that adds execute permission to the owner of the file
