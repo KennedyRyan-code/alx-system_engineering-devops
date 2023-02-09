@@ -4,3 +4,4 @@ script 1-listit displays the contents list of the current directory
 3-listfiles script diplays current directory contents in a long format
 4-listmorefiles script diplays current directory contents in a long format including hidden files
 5-listfilesdigitonly script diplays current directory contents in a long format including hidden files with user & group IDs
+6-firstdirectory script creates a directory
