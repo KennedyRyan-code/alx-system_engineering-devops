@@ -6,3 +6,4 @@ Writting scripts in shell permission
 4-empty a script that creates a new file
 5-execute a script that adds execute permission to the owner of the file
 6-multiple_permissions a script that adds execute permission to the owner and the group owner of the file
+7-everybody a script that adds execution permission to every user
