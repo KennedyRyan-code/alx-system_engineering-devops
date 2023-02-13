@@ -3,3 +3,4 @@
 1-confused_smiley Displays a confused smiley
 2-hellofile Displays the content of a file
 3-twofiles Displays contents of two files
+4-lastlines Displays the last 10 lines of a file
