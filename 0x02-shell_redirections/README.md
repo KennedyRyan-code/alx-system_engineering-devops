@@ -8,3 +8,4 @@
 6-third_line Displays the third line of a file
 8-cwd_state writes into a file the result of the command
 9-duplicate_last_line Duplicates the last line of a file
+10-no_more_js Deletes all the java regular files
