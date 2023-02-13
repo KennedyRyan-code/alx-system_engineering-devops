@@ -15,3 +15,4 @@
 14-findthatword Displays lines containing a pattern
 15-countthatword Displays the number of lines that contain a pattern in a file
 16-whatsnext Displays lines containing a pattern and 3 lines after them in a file
+17-hidethisword Displays the lines in a file that do not contain a certain pattern
