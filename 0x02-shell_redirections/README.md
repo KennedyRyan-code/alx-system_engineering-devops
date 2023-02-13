@@ -14,3 +14,4 @@
 13-unique Takes a list of words as inputs and prints only words that appear once
 14-findthatword Displays lines containing a pattern
 15-countthatword Displays the number of lines that contain a pattern in a file
+16-whatsnext Displays lines containing a pattern and 3 lines after them in a file
