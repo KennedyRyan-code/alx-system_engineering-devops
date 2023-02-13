@@ -6,3 +6,4 @@
 4-lastlines Displays the last 10 lines of a file
 5-firstlines Displays the first ten lines of a file
 6-third_line Displays the third line of a file
+8-cwd_state writes into a file the result of the command
