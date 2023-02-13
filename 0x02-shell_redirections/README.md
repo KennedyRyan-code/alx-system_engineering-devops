@@ -10,3 +10,4 @@
 9-duplicate_last_line Duplicates the last line of a file
 10-no_more_js Deletes all the java regular files
 11-directories Counts the number of directories not including the current
+12-newest_files Displays the ten newest files in a directory
