@@ -4,3 +4,4 @@
 2-hellofile Displays the content of a file
 3-twofiles Displays contents of two files
 4-lastlines Displays the last 10 lines of a file
+5-firstlines Displays the first ten lines of a file
