@@ -11,3 +11,4 @@
 10-no_more_js Deletes all the java regular files
 11-directories Counts the number of directories not including the current
 12-newest_files Displays the ten newest files in a directory
+13-unique Takes a list of words as inputs and prints only words that appear once
