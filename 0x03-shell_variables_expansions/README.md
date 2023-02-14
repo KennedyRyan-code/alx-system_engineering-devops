@@ -4,3 +4,4 @@
 3-paths Counts the number of dirrectories in a Path
 4-global_variables Lists environment variables
 5-local_variables Lists all local variables and env var, and functions
+8-true_knowledge Prints the results of addition of values with stored env var
