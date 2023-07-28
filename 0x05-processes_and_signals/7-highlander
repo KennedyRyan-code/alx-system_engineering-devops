@@ -6,10 +6,8 @@ function on_sigterm {
     exit 0
 }
 
-# Trap the SIGTERM signal and call the on_sigterm function
 trap 'on_sigterm' SIGTERM
 
-# Define the infinite loop
 while true;
 do
     echo "To infinity and beyond"
