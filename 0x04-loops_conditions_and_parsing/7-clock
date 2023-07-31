@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script displays the time for 12 hours and 59 minutes
+
+# Initialize the hours counter
+hours=0
+
+# Loop while hours is less than or equal to 12
+while [ $hours -le 12 ]; do
+    echo "Hour: $hours"
+    
+    # Display minutes from 1 to 59
+    for (( minutes=1; minutes<=59; minutes++ )); do
+        echo $minutes
+    done
+
+    # Increment the hours counter
+    ((hours++))
+done
