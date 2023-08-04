@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Function to display usage message
+display_usage() {
+    echo "Usage: $0 {IP_ADDRESS}"
+}
+
+# Check if the script is called with an argument
+if [ $# -eq 0 ]; then
+    display_usage
+    exit 1
+fi
+
+# Extract the IP address from the argument
+ip_address="$1"
+
+# Perform ping 5 times and display the result
+ping_result=$(ping -c 5 "$ip_address")
+
+# Display the ping result
+echo "$ping_result"
