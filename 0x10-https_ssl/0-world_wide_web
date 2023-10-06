@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Function to display information about a subdomain
+
+display_info() {
+  local domain="$1"
+  local subdomain="$2"
+
+  # Perform a DNS lookup and extract the information
+  local dns_result
+  dns_result=$(dig "$subdomain.$domain" +short)
+
+  if [ -z "$dns_result" ]; then
+    echo "The subdomain $subdomain does not exist for domain $domain"
+  else
+    # Determine the record type (A or CNAME)
+    local record_type
+    if [[ "$dns_result" == *":"* ]]; then
+      record_type="AAAA"
+    else
+      record_type="A"
+    fi
+
+    echo "The subdomain $subdomain is a $record_type record and points to $dns_result"
+  fi
+}
+
+if [ "$#" -lt 1 ]; then
+  echo "Usage: $0 <domain> [subdomain]"
+  exit 1
+fi
+
+# Assign domain and subdomain from command line arguments
+domain="$1"
+subdomain="$2"
+
+if [ -z "$subdomain" ]; then
+  subdomain="www lb-01 web-01 web-02"
+fi
+
+for sub in $subdomain; do
+  display_info "$domain" "$sub"
+done
