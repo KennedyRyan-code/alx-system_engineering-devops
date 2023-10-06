@@ -14,11 +14,7 @@ display_info() {
   else
     # Determine the record type (A or CNAME)
     local record_type
-    if [[ "$dns_result" == *":"* ]]; then
-      record_type="AAAA"
-    else
-      record_type="A"
-    fi
+    record_type=$(echo "$dns_result" | awk '{if (/:/) print "AAA"; else print "A" }')
 
     echo "The subdomain $subdomain is a $record_type record and points to $dns_result"
   fi
