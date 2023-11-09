@@ -11,7 +11,7 @@ def top_ten(subreddit):
     """ Reddit API endpoint for getting hot posts in a subreddit
         a custom User-Agent to avoid Too Many Requests error
     """
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    url = f"https://www.reddit.com/r/{subreddit}/hot/.json"
 
     headers = {'User-Agent': 'Google Chrome Version 81.0.4044.129'}
 
